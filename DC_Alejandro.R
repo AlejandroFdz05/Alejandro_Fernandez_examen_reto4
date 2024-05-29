@@ -22,3 +22,4 @@ miss_var_summary(sample_datos)
 sample_datos <- kNN(sample_datos, variable = c("RDL","MDL","Value"),k = 3,dist_var = c("Area","Site.Type"))
 miss_var_summary(sample_datos)
 
+write.csv(sample_datos,file = "C:/Users/kemen/Downloads/Examen/DF_DC_na.csv" )
