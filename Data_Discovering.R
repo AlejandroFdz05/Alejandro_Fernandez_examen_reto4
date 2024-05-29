@@ -27,3 +27,4 @@ df$Area <- sort(df$Area, na.last = F)  #haciendo esto podemos obserbar que da la
 
 df[c(5,20,33),]
 
+
